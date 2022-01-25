@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-Ctarget-feature=f"] 
+
+[target.riscv64imac-unknown-none-elf]
+linker = "riscv64-unknown-elf-g++"	
